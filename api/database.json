@@ -1,0 +1,278 @@
+{
+    "computers": [
+        {
+            "id": 1,
+            "model": "Macbook Pro",
+            "year": 2015
+        },
+        {
+            "id": 2,
+            "model": "Macbook Pro",
+            "year": 2018
+        },
+        {
+            "id": 3,
+            "model": "Macbook Pro",
+            "year": 2022
+        },
+        {
+            "id": 4,
+            "model": "HP Dragonfly",
+            "year": 2017
+        },
+        {
+            "id": 5,
+            "model": "HP Dragonfly",
+            "year": 2019
+        },
+        {
+            "id": 6,
+            "model": "HP Dragonfly",
+            "year": 2020
+        },
+        {
+            "id": 7,
+            "model": "Lenovo Thinkpad",
+            "year": 2018
+        },
+        {
+            "id": 8,
+            "model": "Lenovo Thinkpad",
+            "year": 2020
+        },
+        {
+            "id": 9,
+            "model": "Lenovo Thinkpad",
+            "year": 2023
+        },
+        {
+            "id": 10,
+            "model": "Dell Precision",
+            "year": 2019
+        },
+        {
+            "id": 11,
+            "model": "Dell Precision",
+            "year": 2020
+        },
+        {
+            "id": 12,
+            "model": "Dell Precision",
+            "year": 2021
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "firstName": "Rainu",
+            "lastName": "Ittycheriah",
+            "computerId": 1,
+            "departmentId": 2,
+            "locationId": 3
+        },
+        {
+            "id": 2,
+            "firstName": "Lianne",
+            "lastName": "Sanders",
+            "computerId": 4,
+            "departmentId": 4,
+            "locationId": 1
+        },
+        {
+            "id": 3,
+            "firstName": "Allan",
+            "lastName": "Roberts",
+            "computerId": 7,
+            "departmentId": 1,
+            "locationId": 2
+        },
+        {
+            "id": 4,
+            "firstName": "Jackie",
+            "lastName": "Griffith",
+            "computerId": 11,
+            "departmentId": 3,
+            "locationId": 2
+        },
+        {
+            "id": 5,
+            "firstName": "Phil",
+            "lastName": "Reid",
+            "computerId": 2,
+            "departmentId": 1,
+            "locationId": 1
+        },
+        {
+            "id": 6,
+            "firstName": "Rachel",
+            "lastName": "McDaniel",
+            "computerId": 10,
+            "departmentId": 3,
+            "locationId": 1
+        },
+        {
+            "id": 7,
+            "firstName": "Steven",
+            "lastName": "Reed",
+            "computerId": 3,
+            "departmentId": 2,
+            "locationId": 3
+        },
+        {
+            "id": 8,
+            "firstName": "Lloyd",
+            "lastName": "Newman",
+            "computerId": 9,
+            "departmentId": 4,
+            "locationId": 1
+        }
+    ],
+    "departments": [
+        {
+            "id": 1,
+            "name": "Accounting"
+        },
+        {
+            "id": 2,
+            "name": "Business Development / Sales"
+        },
+        {
+            "id": 3,
+            "name": "Front-End Development"
+        },
+        {
+            "id": 4,
+            "name": "Back-End Development"
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "location": "Nashville"
+        },
+        {
+            "id": 2,
+            "location": "Atlanta"
+        },
+        {
+            "id": 3,
+            "location": "Memphis"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "James Miller"
+        },
+        {
+            "id": 2,
+            "name": "William Wilson"
+        },
+        {
+            "id": 3,
+            "name": "Emma Williams"
+        },
+        {
+            "id": 4,
+            "name": "Olivia Murphy"
+        },
+        {
+            "id": 5,
+            "name": "Allan Adams"
+        },
+        {
+            "id": 6,
+            "name": "Jason Smith"
+        },
+        {
+            "id": 7,
+            "name": "Lucas Williams"
+        },
+        {
+            "id": 8,
+            "name": "Sarah Campbell"
+        }
+    ],
+    "workOrders": [
+        {
+            "id": 1,
+            "customerId": 1,
+            "employeeId": 8
+        },
+        {
+            "id": 2,
+            "customerId": 1,
+            "employeeId": 1
+        },
+        {
+            "id": 3,
+            "customerId": 2,
+            "employeeId": 1
+        },
+        {
+            "id": 4,
+            "customerId": 2,
+            "employeeId": 2
+        },
+        {
+            "id": 5,
+            "customerId": 3,
+            "employeeId": 2
+        },
+        {
+            "id": 6,
+            "customerId": 3,
+            "employeeId": 3
+        },
+        {
+            "id": 7,
+            "customerId": 4,
+            "employeeId": 3
+        },
+        {
+            "id": 8,
+            "customerId": 4,
+            "employeeId": 4
+        },
+        {
+            "id": 9,
+            "customerId": 5,
+            "employeeId": 4
+        },
+        {
+            "id": 10,
+            "customerId": 5,
+            "employeeId": 5
+        },
+        {
+            "id": 11,
+            "customerId": 6,
+            "employeeId": 5
+        },
+        {
+            "id": 12,
+            "customerId": 6,
+            "employeeId": 6
+        },
+        {
+            "id": 13,
+            "customerId": 7,
+            "employeeId": 6
+        },
+        {
+            "id": 14,
+            "customerId": 7,
+            "employeeId": 7
+        },
+        {
+            "id": 15,
+            "customerId": 8,
+            "employeeId": 7
+        },
+        {
+            "id": 16,
+            "customerId": 8,
+            "employeeId": 8
+        }
+    ]
+}

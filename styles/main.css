@@ -1,0 +1,10 @@
+#main-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.employee__list,
+.customer__list {
+  flex-basis: 40%;
+}
